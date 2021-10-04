@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "statehouse",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authstatehouse7d5854677d585467",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

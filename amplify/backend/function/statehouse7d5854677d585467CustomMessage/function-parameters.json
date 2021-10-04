@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "statehouse7d5854677d585467",
+  "functionName": "statehouse7d5854677d585467CustomMessage",
+  "resourceName": "statehouse7d5854677d585467CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/snapshot/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "statehouse7d5854677d585467CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "localhost:3000",
+  "EMAILSUBJECT": "Verify your Statehouse account!",
+  "EMAILMESSAGE": "Verify your Statehouse account by following the link below:",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

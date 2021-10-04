@@ -1,0 +1,10 @@
+[
+  {
+    "groupName": "manager",
+    "precedence": 1
+  },
+  {
+    "groupName": "tenant",
+    "precedence": 2
+  }
+]

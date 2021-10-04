@@ -1,15 +1,29 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-statehouse-dev-01652-authRole",
-      "UnauthRoleArn": "arn:aws:iam::993163194774:role/amplify-statehouse-dev-01652-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::993163194774:role/amplify-statehouse-dev-01652-authRole",
+      "AuthRoleName": "amplify-statehouse-dev-170109-authRole",
+      "UnauthRoleArn": "arn:aws:iam::993163194774:role/amplify-statehouse-dev-170109-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::993163194774:role/amplify-statehouse-dev-170109-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-statehouse-dev-01652-deployment",
-      "UnauthRoleName": "amplify-statehouse-dev-01652-unauthRole",
-      "StackName": "amplify-statehouse-dev-01652",
-      "StackId": "arn:aws:cloudformation:us-west-2:993163194774:stack/amplify-statehouse-dev-01652/57790850-2348-11ec-a584-06fb5ee41687",
-      "AmplifyAppId": "d1juahja5ieszm"
+      "DeploymentBucketName": "amplify-statehouse-dev-170109-deployment",
+      "UnauthRoleName": "amplify-statehouse-dev-170109-unauthRole",
+      "StackName": "amplify-statehouse-dev-170109",
+      "StackId": "arn:aws:cloudformation:us-west-2:993163194774:stack/amplify-statehouse-dev-170109/ce324870-249d-11ec-80e7-066a550b3c41",
+      "AmplifyAppId": "d2y7ed8a015oj0"
+    },
+    "categories": {
+      "function": {
+        "statehouse7d5854677d585467CustomMessage": {
+          "REDIRECTURL": "localhost:3000",
+          "EMAILSUBJECT": "Verify your Statehouse account!",
+          "EMAILMESSAGE": "Verify your Statehouse account by following the link below:",
+          "deploymentBucketName": "amplify-statehouse-dev-170109-deployment",
+          "s3Key": "amplify-builds/statehouse7d5854677d585467CustomMessage-4855756969532f516f32-build.zip"
+        }
+      },
+      "auth": {
+        "statehouse7d5854677d585467": {}
+      }
     }
   }
 }
